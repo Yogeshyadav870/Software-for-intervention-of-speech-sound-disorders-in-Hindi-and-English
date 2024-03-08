@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 1rem;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #language-selection {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #activity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #instructions, #activity-content, #feedback {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #feedback-message {
+    font-weight: bold;
+  }
+  
+  #record-button {
+    padding: 0.5rem 1rem;
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #progress {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  #progress-count {
+    font-weight: bold;
+  }

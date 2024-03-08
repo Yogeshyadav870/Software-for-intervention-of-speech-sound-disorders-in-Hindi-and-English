@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speech Sound Intervention Software</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Speech Sound Intervention Software</h1>
+  </header>
+  <main>
+    <section id="language-selection">
+      <h2>Select Language</h2>
+      <button data-language="en">English</button>
+      <button data-language="hi">Hindi</button>
+    </section>
+    <section id="activity-container">
+      <div id="instructions">
+        <h2>Instructions</h2>
+        <p>Listen to the target sound and try to repeat it. Click "Record" to capture your speech.</p>
+      </div>
+      <div id="activity-content">
+        <h3>Target Sound: </h3>
+        <p id="target-sound-text"></p>
+        <img id="target-sound-image" src="" alt="">
+        <audio id="target-sound-audio" controls></audio>
+      </div>
+      <div id="feedback">
+        <p id="feedback-message"></p>
+        <button id="record-button">Record</button>
+        <div id="progress">
+          <span>Progress: </span>
+          <span id="progress-count">0/5</span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
